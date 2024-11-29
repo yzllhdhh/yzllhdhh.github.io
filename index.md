@@ -43,7 +43,7 @@
     - JVM 是一个虚拟的计算机，具有指令集并使用不同的存储区域。负责执行指令，管理数据、内存、寄存器，包含在 JDK 中
     - 对于不同的平台，有不同的虚拟机
     - Java 虚拟机机制屏蔽了底层运行平台的差别，实现了 一次编译，到处运行
-      >![img_1.png](img_1.png)
+      >![image](https://github.com/user-attachments/assets/9996421b-7dd7-4533-8278-1b58f2481249)
       > - 编译指令 ： `javac` 
       > - 执行指令 ： `java`
         
@@ -130,7 +130,8 @@ class CuteCat {
 - 可以将 main 方法写在非 public 类中，然后指定运行非 public 类，这样入口方法就是非 public 的 mian 方法
    
 #### 1.12 如何快速掌握技术或知识点
-   ![img_2.png](img_2.png)
+   ![image](https://github.com/user-attachments/assets/ca6b50c4-42e7-4e81-a91f-c49d8f59aa9f)
+
    
 #### 1.13 Java 转义字符
 转义字符是一些有特殊意义的字符，用来表示常见的不能显示的字符
@@ -170,16 +171,19 @@ public class EscapeCharacters {
     }
 }
 ```
-![img_3.png](img_3.png)
+![image](https://github.com/user-attachments/assets/fd8726ac-698c-4e94-935f-57d16337c8cb)
+
    
 #### 1.14 初学 Java 易犯错误
 1. 找不到文件
-<br>![img_4.png](img_4.png)
+<br>![image](https://github.com/user-attachments/assets/4a8c1111-669b-4341-957d-b86c46d4ef25)
 
 2. 主类名和文件名不一致
-<br>![img_5.png](img_5.png)
+<br>![image](https://github.com/user-attachments/assets/d96de48a-3e6a-43dd-b543-0a08cb8315af)
+
 3. 缺少分号
-<br>![img_6.png](img_6.png)
+<br>![image](https://github.com/user-attachments/assets/3b2e8606-a95d-4b42-a1f7-46dc59fbba82)
+
 4. 常见错误总结
    学习编程最容易烦的错是语法错误（初学者）Java要求必须按照语法规则编写代码。如果程序违反了语法规则，例如：忘记分号、大括号、引号，或者拼错单词，Java 编译器都会报语法错误。尝试去看懂编译器会报告的错误信息
    - `1` - `l`
@@ -276,7 +280,7 @@ public static void main(String args[])
 #### 1.17 DOS 命令（了解）
 - DOS：Disk Operating System 磁盘操作系统 
 - DOS 基本原理：
-  ![img_7.png](img_7.png)
+  ![image](https://github.com/user-attachments/assets/c516a942-f049-477f-9ab6-35969cd21c12)
 
 - 相对路径、绝对路径
   - 相对路径：从当前目录开始定位，形成的路径
