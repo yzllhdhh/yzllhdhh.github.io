@@ -22,7 +22,7 @@
 - Java 的强类型机制、异常处理、垃圾的自动收集等是 Java 程序健壮性的重要保证
 - Java 语言是跨平台性的
   > 一个编译好的 .class 文件可以在多个系统下运行，这种特性称为跨平台
-  > ![img.png](img.png)
+  > ![img.png](assets/img.png)
 - Java 语言是解释型的（了解）
   - 解释性语言：JavaScript、PHP、Java
   - 编译性语言：C/C++
@@ -43,7 +43,7 @@
     - JVM 是一个虚拟的计算机，具有指令集并使用不同的存储区域。负责执行指令，管理数据、内存、寄存器，包含在 JDK 中
     - 对于不同的平台，有不同的虚拟机
     - Java 虚拟机机制屏蔽了底层运行平台的差别，实现了 一次编译，到处运行
-      >![img_1.png](img_1.png)
+      >![img_1.png](assets/img_1.png)
       > - 编译指令 ： `javac` 
       > - 执行指令 ： `java`
         
@@ -130,7 +130,7 @@ class CuteCat {
 - 可以将 main 方法写在非 public 类中，然后指定运行非 public 类，这样入口方法就是非 public 的 mian 方法
    
 #### 1.12 如何快速掌握技术或知识点
-   ![img_2.png](img_2.png)
+   ![img_2.png](assets/img_2.png)
    
 #### 1.13 Java 转义字符
 转义字符是一些有特殊意义的字符，用来表示常见的不能显示的字符
@@ -170,16 +170,16 @@ public class EscapeCharacters {
     }
 }
 ```
-![img_3.png](img_3.png)
+![img_3.png](assets/img_3.png)
    
 #### 1.14 初学 Java 易犯错误
 1. 找不到文件
-<br>![img_4.png](img_4.png)
+<br>![img_4.png](assets/img_4.png)
 
 2. 主类名和文件名不一致
-<br>![img_5.png](img_5.png)
+<br>![img_5.png](assets/img_5.png)
 3. 缺少分号
-<br>![img_6.png](img_6.png)
+<br>![img_6.png](assets/img_6.png)
 4. 常见错误总结
    学习编程最容易烦的错是语法错误（初学者）Java要求必须按照语法规则编写代码。如果程序违反了语法规则，例如：忘记分号、大括号、引号，或者拼错单词，Java 编译器都会报语法错误。尝试去看懂编译器会报告的错误信息
    - `1` - `l`
@@ -276,7 +276,7 @@ public static void main(String args[])
 #### 1.17 DOS 命令（了解）
 - DOS：Disk Operating System 磁盘操作系统 
 - DOS 基本原理：
-  ![img_7.png](img_7.png)
+  ![img_7.png](assets/img_7.png)
 
 - 相对路径、绝对路径
   - 相对路径：从当前目录开始定位，形成的路径
